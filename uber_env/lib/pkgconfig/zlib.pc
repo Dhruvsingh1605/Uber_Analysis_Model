@@ -1,0 +1,13 @@
+prefix=/media/dhruv/Local Disk/Taxi_Fare_Model/uber_env
+exec_prefix=/media/dhruv/Local Disk/Taxi_Fare_Model/uber_env
+libdir=/media/dhruv/Local Disk/Taxi_Fare_Model/uber_env/lib
+sharedlibdir=/media/dhruv/Local Disk/Taxi_Fare_Model/uber_env/lib
+includedir=/media/dhruv/Local Disk/Taxi_Fare_Model/uber_env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

@@ -1,1 +1,1 @@
-python-3.7.pc
+unsupported reparse tag 0xa000000c
